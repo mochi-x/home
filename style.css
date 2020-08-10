@@ -1,0 +1,77 @@
+/* common */
+html {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+}
+
+.content {
+    margin: 0 auto;
+    width: 900px;
+}
+
+/* header */
+.content__header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content__header__left img {
+    width: 50px;
+}
+
+.content__header__right {
+    display: flex;
+    align-content: center;
+}
+
+.content__header__right__list {
+    list-style: none;
+    margin-left: 15px;
+}
+
+/* main */
+.content__main {
+    margin: 0 50px;
+}
+
+.content__main__member {
+    margin-bottom: 40px;
+}
+
+.content__main__member h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.content__main__product {
+    margin-bottom: 40px;
+}
+
+.content__main__product h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+/* footer */
+.content__footer {
+    padding: 40px 0;
+}
+
+.content__footer p {
+    text-align: center;
+}
