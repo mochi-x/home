@@ -29,7 +29,8 @@ td {
 
 .content {
     margin: 0 auto;
-    width: 900px;
+    max-width: 900px;
+    padding: 0 20px;
 }
 
 /* header */
@@ -102,7 +103,7 @@ td {
 
 .content__main__product h1 {
     font-size: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .content__main__product__list {
@@ -110,20 +111,15 @@ td {
 }
 
 .content__main__product__list li  {
-    display: flex;
-    align-items: center;
+    padding: 20px;
     border: 1px solid #fff;
-    height: 100px;
-}
-
-.content__main__product__list li a {
-    width: 300px;
-    text-align: center;
 }
 
 .content__main__product__list li p {
     font-size: 14px;
-    margin-right: 10px;
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+    margin-top: 10px;
 }
 
 /* footer */
