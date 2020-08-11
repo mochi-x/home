@@ -17,6 +17,16 @@ a:visited {
     color: #fff;
 }
 
+th {
+    font-weight: lighter;
+    padding: 10px;
+}
+
+td {
+    font-weight: lighter;
+    padding: 10px;
+}
+
 .content {
     margin: 0 auto;
     width: 900px;
@@ -30,7 +40,7 @@ a:visited {
     align-items: center;
 }
 
-.content__header__left img {
+.content__header__left a img {
     width: 50px;
 }
 
@@ -49,6 +59,19 @@ a:visited {
     margin: 0 50px;
 }
 
+.content__main__top {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.content__main__top img {
+    width: 150px;
+}
+
+.content__main__top h1 {
+    font-size: 36px;
+}
+
 .content__main__member {
     margin-bottom: 40px;
 }
@@ -58,6 +81,21 @@ a:visited {
     margin-bottom: 5px;
 }
 
+.content__main__member__list {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.content__main__member__list li {
+    text-align: center;
+}
+
+.content__main__member__list li a img {
+    width: 80px;
+    border-radius: 80px;
+}
+
 .content__main__product {
     margin-bottom: 40px;
 }
@@ -65,6 +103,27 @@ a:visited {
 .content__main__product h1 {
     font-size: 30px;
     margin-bottom: 5px;
+}
+
+.content__main__product__list {
+    list-style: none;
+}
+
+.content__main__product__list li  {
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    height: 100px;
+}
+
+.content__main__product__list li a {
+    width: 300px;
+    text-align: center;
+}
+
+.content__main__product__list li p {
+    font-size: 14px;
+    margin-right: 10px;
 }
 
 /* footer */
