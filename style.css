@@ -2,7 +2,7 @@
 html {
     background-color: #000;
     color: #fff;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Inconsolata', monospace;
 }
 
 a {
@@ -70,16 +70,29 @@ td {
 }
 
 .content__main__top h1 {
-    font-size: 36px;
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+}
+
+.content__main__about {
+    margin-bottom: 60px;
+}
+
+.content__main__about h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-family: 'Inter', sans-serif;
 }
 
 .content__main__member {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .content__main__member h1 {
     font-size: 30px;
     margin-bottom: 5px;
+    font-family: 'Inter', sans-serif;
 }
 
 .content__main__member__list {
@@ -98,12 +111,13 @@ td {
 }
 
 .content__main__product {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .content__main__product h1 {
     font-size: 30px;
     margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
 }
 
 .content__main__product__list {
@@ -113,6 +127,16 @@ td {
 .content__main__product__list li  {
     padding: 20px;
     border: 1px solid #fff;
+}
+
+.content__main__product__list li a {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.content__main__product__list li a:hover {
+    color: rgb(248, 69, 69);
 }
 
 .content__main__product__list li p {
