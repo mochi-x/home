@@ -127,6 +127,11 @@ td {
 .content__main__product__list li  {
     padding: 20px;
     border: 1px solid #fff;
+    margin-top: 20px;
+}
+
+.content__main__product__list li:first-child {
+    margin-top: 0;
 }
 
 .content__main__product__list li a {
