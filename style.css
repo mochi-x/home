@@ -103,6 +103,16 @@ td {
 
 .content__main__member__list li {
     text-align: center;
+    margin-left: 20px;
+}
+
+.content__main__member__list li p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.content__main__member__list li:first-child {
+    margin-left: 0;
 }
 
 .content__main__member__list li a img {
@@ -145,6 +155,47 @@ td {
 }
 
 .content__main__product__list li p {
+    font-size: 14px;
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.content__main__template {
+    margin-bottom: 60px;
+}
+
+.content__main__template h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+}
+
+.content__main__template__list {
+    list-style: none;
+}
+
+.content__main__template__list li  {
+    padding: 20px;
+    border: 1px solid #fff;
+    margin-top: 20px;
+}
+
+.content__main__template__list li:first-child {
+    margin-top: 0;
+}
+
+.content__main__template__list li a {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.content__main__template__list li a:hover {
+    color: rgb(248, 69, 69);
+}
+
+.content__main__template__list li p {
     font-size: 14px;
     border-top: 1px solid #fff;
     padding-top: 10px;
